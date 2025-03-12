@@ -1,0 +1,43 @@
+{
+    "name": "Bluetooth-Motorbit-Turtlebit-Multi-Car",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "pxt-turtle-bit": "github:mworkfun/pxt-turtle-bit#c64c057e626effa806dac2a262f8d6da3b9d314a",
+        "bluetooth": "*",
+        "microphone": "*",
+        "motorbit": "github:NL-leishen/pxt-motorbit#d64e9d9b8aeaf423543762bd4283d96875b41c81"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.17",
+        "tag": "v3.0.17",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/414403fca5144b77b5c4944174a1a4f2144af5fe",
+        "target": "7.0.57",
+        "pxt": "6.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
